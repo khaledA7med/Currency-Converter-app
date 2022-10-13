@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../background.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 450px;
+  height: 550px;
+  padding: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  background-color: #181e4e;
+}
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  color: #b4fc62;
+}
+.wrapper form {
+  margin: 40px 0 20px 0;
+}
+form :where(input, select, button) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+form p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #b4fc62;
+}
+form input {
+  height: 50px;
+  font-size: 17px;
+  padding: 0 15px;
+  border: 1px solid #999;
+}
+form input:focus {
+  padding: 0 14px;
+  border: 2px solid #b4fc62;
+}
+form .drop-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.drop-list .select-box {
+  display: flex;
+  height: 45px;
+  width: 115px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b4fc62;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.select-box select {
+  width: auto;
+  font-size: 16px;
+  margin: 0 -5px 0 5px;
+}
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+.select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #ffffff;
+}
+.select-box img {
+  max-width: 25px;
+}
+.drop-list .icon {
+  cursor: pointer;
+  font-size: 22px;
+  margin-top: 30px;
+  color: #b4fc62;
+}
+form .exchange-rate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #b4fc62;
+  font-size: 25px;
+  margin: 50px 0 30px;
+  border: 1px solid #b4fc62;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+form button {
+  margin-top: 20px;
+  height: 52px;
+  color: #fff;
+  font-size: 17px;
+  cursor: pointer;
+  background: #b4fc62;
+}
